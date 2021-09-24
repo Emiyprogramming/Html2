@@ -1,0 +1,54 @@
+/* Css Dasar 
+#Posisi
+- kiri => left -> bergeser ke kanan
+- kanan => right -> bergeser ke kiri
+- tengah => center -> ketengah
+- rata kanan dan kiri => justify
+#ukuran gambar
+- height => tinggi gambar
+- width => lebar gambar
+*/
+body{
+  font-family: sans-serif;
+  background-image: url('../img/img1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-origin: border-box;
+}
+p, strong{
+    margin-left: 85px;
+    font-size: 15pt;
+}
+strong{
+    margin-left: 150px;
+}
+.login-box{
+    position: relative;
+    margin-left: 500px;
+    margin-top: 285px;
+}
+.login-box-body{
+    width: 500px;
+    height: 100px;
+}
+.form-control{
+    /* membuat lebar form */
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5px; /*ukuran text-form*/
+    font-size: 11pt;
+    margin-bottom: 20px; /*ukuran ke bawah*/
+    border-radius: 4px;
+}
+.tombol{
+    background:rgb(83, 20, 199);
+    color: cornsilk;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 15%;
+    border-radius: 5px;
+    pad: 20px 20px;
+    padding: 2px;
+    margin-left: 70px;
+}
